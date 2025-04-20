@@ -24,7 +24,16 @@ const Hero = () => {
     <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full  lg:w-1/2">
         <div className="flex justify-center lg:p-8">
-            < motion.img src={PROFILE_PIC} alt=""  className='border-0 border-stone-900 rounded-3xl initial={{x:100,opacity:0} } animate={{x:0,opacity:1} } transition={ {duration:1,delay:1.5}}' width={650} height={650}/>
+            <motion.img 
+              src={PROFILE_PIC} 
+              alt="profile" 
+              className='border-0 border-stone-900 rounded-3xl' 
+              initial={{x:100, opacity:0}} 
+              animate={{x:0, opacity:1}} 
+              transition={{duration:1, delay:1}} 
+              width={650} 
+              height={650}
+            />
         </div>
         </div>
         <div className="w-full lg:w-1/2">
