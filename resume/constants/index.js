@@ -2,6 +2,9 @@ import project1 from "../src/assets/ecom-web.jpg";
 import project2 from "../src/assets/task.jpg";
 import project3 from "../src/assets/portfolio.jpg";
 import project4 from "../src/assets/blog.jpg";
+import profilePic from "../src/assets/profilepic.jpg";
+
+export const PROFILE_PIC = profilePic;
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
