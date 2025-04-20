@@ -2,10 +2,13 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import React from 'react'
-import Navbar from './Navbar.jsx'
+
+
+import Main from '../axiosfetch/Main.jsx'
+
 createRoot(document.getElementById('root')).render(
     
-    <Navbar />
+    <Main />
  
 )
 

@@ -2,13 +2,24 @@ import { useState } from "react";
 
 function Counter (){
     const [counter,setCounter] = useState(0)
-    function increment(){
-        setCounter(counter+1)
 
-    }
-    function decrement(){
-        if (counter>0) setCounter(counter-1)
-    }
+    const debounce = (func, delay) => {
+        let timeoutId;
+        return (...args) => {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+                func(...args);
+            }, delay);
+        };
+    };
+
+    const increment = debounce(() => {
+        setCounter(counter + 1);
+    }, 300);
+
+    const decrement = debounce(() => {
+        if (counter > 0) setCounter(counter - 1);
+    }, 300);
 
     return(
         <>
@@ -16,7 +27,6 @@ function Counter (){
           <button onClick={increment}>increment</button>
           <p>{counter}</p>
           <button onClick={decrement}>Decrement</button>
-  
         </>
     )
 }
