@@ -2,9 +2,10 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import React from 'react'
-
-
 import Main from '../axiosfetch/Main.jsx'
+
+import App from './App.jsx'
+import Grocery from './Grocery.jsx'
 
 createRoot(document.getElementById('root')).render(
     
@@ -24,6 +25,6 @@ createRoot(document.getElementById('root')).render(
 // props can be of any datatype ex : <App({name="John", age=30}) />  and we can access the props like this props.name and props.age
 // or  name = "rohit" age={30} basically it should be either "in string" or {in expression}
 // whenever we use loops in react we use map function and we use key to identify the element key is basically id so every element in the loop should have a unique key
-// we cannot use for loop,while, do while etc inside a return statement 
-// insted we use Hofs such as map, filter, reduce etc
+// we cannot use : for loop,while, do while etc inside a return statement 
+// instead we use Hofs such as map, filter, reduce etc
 

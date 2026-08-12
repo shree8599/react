@@ -7,6 +7,7 @@ import { CartContext } from './Context'
 
 
 const SingleProd = () => {
+  
    const {handleCart} = useContext(CartContext)
 const { id } = useParams()
 const [data, setData] = React.useState(null);
@@ -42,7 +43,7 @@ return (
                         <p className='price font-extrabold text-xl mb-2'>${data.price}</p>
                         <p className='overflow-y-auto'>{data.description}</p>
                         <div className='flex flex-row gap-3 mt-2 items-center w-full'>
-                            <button onClick={()=> handleCart(data)} className='bg-black text-white p-2 rounded-xl'>Add to cart</button>
+                            <button onClick={()=> handleCart(data)}  className='bg-black text-white p-2 rounded-xl'>Add to cart</button>
                             <button className='bg-rose-600 text-white p-2 rounded-xl'>Add to wishlist</button>
                         </div>
                     </div>

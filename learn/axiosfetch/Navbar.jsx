@@ -25,7 +25,7 @@ const Navbar = () => {
                 {cart.length}
               </span>
           </Link>
-          <Link className='mt-2  hover:text-blue-400' to="/Profile"><CgProfile /></Link>
+          <Link className='mt-2  hover:text-blue-400' to="/Register"><CgProfile /></Link>
       
         </div>
       </nav>
