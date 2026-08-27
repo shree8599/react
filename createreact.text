@@ -1,0 +1,33 @@
+<!-- command to create react app -->
+<!-- fllw step by step -->
+npm create vite@latest my-react-app
+cd my-react-app
+npm i
+npm run dev
+
+// for icons
+npm install lucide-react 
+then visit lucide.dev
+
+// to connect tailwind
+open 1st the folder in terminal
+then run these
+1. npm install tailwindcss @tailwindcss/vite
+
+now open vite.config file
+ first import these
+1.import tailwindcss from '@tailwindcss/vite'
+
+then in pluggins
+2.tailwindcss()    first give ','after react()then  add tailwindcss()
+forex:
+plugins: [
+    react(),tailwindcss()
+  ],
+
+  then in index.css
+  @import "tailwindcss";
+
+  then
+   npm run dev
+

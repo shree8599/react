@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #111;
+}
+.parent{
+  width: 100%;
+ background-color: #111;
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+  
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.top img{
+  height: 45px;
+  width: 40px;
+  border-radius: 48%;
+  border: 1px solid #dadada;
+}
+.card{
+  height: 340px;
+  width: 250px;
+  background-color: #fff;
+  border-radius:30px;
+  padding: 20px;
+  
+
+ 
+}
+.top button{
+  display: flex;
+  border:1px solid #dadada;
+  border-radius: 5px;
+  padding: 4px 8px;
+  align-items: center;
+  font-size: 13px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.bottom{
+  border-top:1px solid #b1b1b1;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+.down{
+  margin: 10px 0px;
+}
+.bottom button{
+  margin:10px 0px;
+  padding: 8px 12px ;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.main{
+
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 70px;
+}
+.center{
+  padding-top: 18px;
+
+}
+.center b{
+  font-size: larger;
+}
+.work span{
+  background-color: #dadada;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: small;
+  padding-top: 2px;
+  margin-top: 2px;
+}
