@@ -1,10 +1,11 @@
-import React from 'react'
+
 import Assign1 from '../src/assign1/Assign1'
 import Assign2 from '../src/assign2/Assign2'
 import Assign2q3 from '../src/assign2/Assign2q3'
 import Assign3 from './assign3/Assign3'
 import Assign4 from './assign4/Assign4'
 import Assign5 from './assign5/Assign5'
+import Assign6 from './assign6/Assign6'
 
 
 const products = [
@@ -52,6 +53,7 @@ function App() {
      </div>
      <Assign4 />
      <Assign5 />
+     <Assign6 />
     
     </div>
   )

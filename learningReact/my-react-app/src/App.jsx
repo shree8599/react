@@ -1,13 +1,13 @@
 
-
 import './App.css'
 import Learn from './Learn.jsx'
 import Classcomponent from './classcomponent.jsx'
-import Props from './Props.jsx'
+import Styles from './appstyle.module.css'
 import Usestate from './Usestate.jsx'
 import Events from './LearnEvents.jsx'
 
 import Child from '../destructuring/Child.jsx'
+import FormHandling from './FormHandling.jsx'
 
 
 
@@ -20,15 +20,18 @@ function App() {
  
 
   return (
-    <div className=' text-black text-2xl w-full text-center p-5 '>
+    <div className=' text-black text-2xl w-full text-center p-5 ' style={{background:'lightpink'}}>
     <Classcomponent />
       <Learn />
      <Usestate />
      <Events />
     
-      <h1>Parent Component</h1>
+      <h1 className='parent'>Parent Component</h1>
 
       <Child user={user} />
+
+      <h1 className={Styles.success}>applying through module css</h1>
+      <FormHandling />
   
 </div>
 
