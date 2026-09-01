@@ -8,6 +8,9 @@ import Events from './LearnEvents.jsx'
 
 import Child from '../destructuring/Child.jsx'
 import FormHandling from './FormHandling.jsx'
+import Lifecycle from './Lifecycle.jsx'
+import Playground from '../Playground.jsx'
+
 
 
 
@@ -32,6 +35,9 @@ function App() {
 
       <h1 className={Styles.success}>applying through module css</h1>
       <FormHandling />
+      <Lifecycle />
+      <Playground />
+  
   
 </div>
 
