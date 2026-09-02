@@ -31,3 +31,6 @@ plugins: [
   then
    npm run dev
 
+
+// to install axios
+npm i axios

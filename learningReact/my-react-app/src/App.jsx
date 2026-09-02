@@ -9,7 +9,13 @@ import Events from './LearnEvents.jsx'
 import Child from '../destructuring/Child.jsx'
 import FormHandling from './FormHandling.jsx'
 import Lifecycle from './Lifecycle.jsx'
-import Playground from '../Playground.jsx'
+import Playground from './Playground.jsx'
+import UseEffectunderstanding from './UseEffectunderstanding.jsx'
+import UseContextunderstanding from './UseContextunderstanding.jsx'
+import UseReducerunderstanding from './UseReducerunderstanding.jsx'
+import Usememounderstanding from './Usememounderstanding.jsx'
+import Storage from './Storage.jsx'
+import Apicall from './Apicall.jsx'
 
 
 
@@ -20,11 +26,10 @@ function App() {
     age: 25,
     city: "Singapore",
   };
- 
 
   return (
     <div className=' text-black text-2xl w-full text-center p-5 ' style={{background:'lightpink'}}>
-    <Classcomponent />
+    {/* <Classcomponent />
       <Learn />
      <Usestate />
      <Events />
@@ -37,7 +42,13 @@ function App() {
       <FormHandling />
       <Lifecycle />
       <Playground />
-  
+      <UseEffectunderstanding />
+      <UseContextunderstanding />
+      <UseReducerunderstanding />
+      <Usememounderstanding /> */}
+    
+  <Storage />
+  <Apicall />
   
 </div>
 
