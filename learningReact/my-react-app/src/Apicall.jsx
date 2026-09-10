@@ -34,11 +34,14 @@ const Apicall = () => {
     <div>
       <button onClick={getdata}>Get Data</button>
      
-        {Array.isArray(data) && data.map((item) => {
-          return <img key={item.id} src={item.url} alt={item.download_url} style={{ width: '100px', height: '100px', margin: '10px' }} />
-        })}
+      <div className='grid grid-cols-2 gap-4 mt-4'>
+        {data.map((item) => (
+          <div key={item.id} className='border p-2'>
+            <img src={item.download_url} alt={item.author} className='w-full h-auto' />
+          </div>
+        ))}
       </div>
-  
+    </div>
   )
 }
 

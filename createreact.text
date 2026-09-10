@@ -34,3 +34,6 @@ plugins: [
 
 // to install axios
 npm i axios
+
+// to install react router 
+npm i react-router-dom

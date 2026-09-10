@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext } from 'react'
 
 
 // Step 1: Create a Context
-const ThemeContext = createContext();
+ export const ThemeContext1 = createContext();
 
 // Step 2: Create a Provider Component
 const ThemeProvider = ({ children }) => {
@@ -14,15 +14,15 @@ const ThemeProvider = ({ children }) => {
   };
   
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext1.Provider value={{ theme, toggleTheme }}>
       {children}
-    </ThemeContext.Provider>
+    </ThemeContext1.Provider>
   );
 };
 
 // Step 3: Create a Custom Hook to use Context
 const useTheme = () => {
-  return useContext(ThemeContext);
+  return useContext(ThemeContext1);
 };
 
 // Step 4: Child Component that uses Context
