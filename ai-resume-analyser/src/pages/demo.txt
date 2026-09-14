@@ -1,0 +1,29 @@
+ # Software Tester
+
+## Job Description
+
+We are seeking a detail-oriented Software Tester to help ensure our applications are reliable, functional, and user-friendly. The successful candidate will design and execute tests, identify defects, and work with developers to resolve issues.
+
+## Responsibilities
+
+- Review requirements and create test plans and test cases.
+- Perform manual and automated testing of software applications.
+- Identify, document, and track bugs through resolution.
+- Conduct regression, integration, and usability testing.
+- Collaborate with developers, product managers, and other team members.
+- Provide clear reports on test results and product quality.
+
+## Requirements
+
+- Basic understanding of software testing principles and methodologies.
+- Strong attention to detail and problem-solving skills.
+- Good written and verbal communication skills.
+- Ability to work independently and as part of a team.
+- Familiarity with issue-tracking tools is a plus.
+- Experience with test automation is desirable but not required.
+
+## Benefits
+
+- Competitive salary and benefits package.
+- Opportunities for professional development.
+- Collaborative and supportive work environment.
